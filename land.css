@@ -55,15 +55,6 @@ nav .links div img {
   vertical-align: middle;
   margin-right: 20px;
 }
-nav .links div button {
-  background-color: #da5c36;
-  color: white;
-  border: none;
-  padding: 10px 25px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 /* Hero */
 .hero {
   width: 100%;
@@ -180,6 +171,11 @@ nav .links div button {
   border: none;
   cursor: pointer;
 }
+.services button.read-more:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
 /* Fresh */
 .fresh {
   width: 100%;
@@ -227,6 +223,11 @@ nav .links div button {
   margin-right: 20px;
   font-size: 18px;
   text-decoration: none;
+}
+.fresh .buy-now:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 .fresh .fresh-img {
   width: 45%;
@@ -402,17 +403,6 @@ nav .links div button {
   width: 250px;
   height: 500px;
   display: inline-block;
-}
-/* Map */
-.map {
-  width: 100%;
-  height: 400px;
-  margin-bottom: 60px;
-}
-.map iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
 }
 /* Footer */
 .footer {
